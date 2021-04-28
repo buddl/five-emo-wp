@@ -1,6 +1,6 @@
 === 5 Emotions ===
 Contributors: meyfey
-Tags: feedback, customer feedback, poll, opinion, instant feedback
+Tags: survey, questionnaire, opinion, poll, sentiment, instant feedback, immediate feedback, instant customer feedback, customer satisfaction, NPS, point of experience, anonymous feedback
 Requires at least: 5.0
 Tested up to: 5.7
 Requires PHP: 5.6
