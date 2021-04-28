@@ -3,13 +3,18 @@
 Plugin Name: 5 Emotions
 Plugin URI:  https://www.5emotions.de/
 Description: Embed 5 Emotions into your wordpress website
-Version:     1.1
+Version:     1.2
 Author:      5 Emotions
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: five-emo-wp
 Domain Path: /languages
 */
+
+// Exit if accessed directly
+if (!defined('ABSPATH')) {
+    exit;
+}
 
 require_once __DIR__ . '/includes/five-emo-widget.php';
 
