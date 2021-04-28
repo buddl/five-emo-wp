@@ -29,13 +29,21 @@ if ( !class_exists( 'FiveEmo_WP_Admin' ) ) {
         }
 
         function admin_menu() {
-            // add_options_page(
-            //     '5 Emotions Settings',
-            //     '5 Emotions',
-            //     'manage_options',
-            //     'five-emo-wp',
-            //     'five_emo_render_settings_page'
-            // );
+            add_options_page(
+                '5 Emotions Settings',
+                '5 Emotions',
+                'manage_options',
+                'five-emo-wp',
+                [ $this, 'render_settings_page' ]
+            );
+        }
+
+        function render_settings_page() {
+            ?>
+            <div id='fiveemo_profile_id'></div><script type='text/javascript'>function initFiveEmo() {
+                var fiveemo = new FiveEmo( { objectid: "emotions", elementid: "fiveemo_profile_id", width: "100%", height: "600px", mode: "profile" } );
+            }</script>
+            <?php
         }
 
         function admin_init() {
@@ -123,6 +131,6 @@ if ( !class_exists( 'FiveEmo_WP_Admin' ) ) {
 }
 
 // Instantiate our class
-// $FiveEmo_WP_Admin = FiveEmo_WP_Admin::getInstance();
+$FiveEmo_WP_Admin = FiveEmo_WP_Admin::getInstance();
 
 ?>

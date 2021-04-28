@@ -3,7 +3,7 @@
 Plugin Name: 5 Emotions
 Plugin URI:  https://www.5emotions.de/
 Description: Embed 5 Emotions into your wordpress website
-Version:     1.4
+Version:     1.5
 Author:      5 Emotions
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -63,9 +63,6 @@ if ( !class_exists( 'FiveEmo_WP' ) ) {
                 if ($defer_script === $handle) {
 
                     $rep = " async defer onload='initFiveEmo()' src";
-                    if ( is_admin() ) {
-                        $rep = " async defer src";
-                    }
                     return str_replace(" src", $rep, $tag);
                 }
             }

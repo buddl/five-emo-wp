@@ -14,6 +14,7 @@ This plugin lets you embed a widget for instant user feedback into your website.
 == Description ==
  You can simply add 5 Emotions as a widget into wordpress.
  All you need for this is an object ID you get on our website.
+ You can click on your admin page on Settings->5 Emotions to gather an object ID.
 
 Modes:
 
@@ -28,6 +29,8 @@ Modes:
     your website on a public place, in a shop or on a touch screen.
 
 == Changelog ==
+= 1.5 =
+* plugin settings page.
 = 1.4 =
 * plugin icon and github action for deployment.
 = 1.0 =

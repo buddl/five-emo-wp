@@ -17,17 +17,17 @@ class FiveEmo_WP_Widget extends WP_Widget {
 	//function to output the widget form
 	function form( $instance ) {
 		$objectid = ! empty( $instance['fiveemo_objectid'] ) ? $instance['fiveemo_objectid'] : '';
-		$mode = ! empty( $instance['fiveemo_mode'] ) ? $instance['fiveemo_mode'] : "mode: 'popup' or 'iframe' or 'kiosk' ";
+		$mode = ! empty( $instance['fiveemo_mode'] ) ? $instance['fiveemo_mode'] : '';
 	?>
 	
 	<p>
 		<label for="<?php echo $this->get_field_id( 'fiveemo_objectid'); ?>">ObjectID:</label>
-		<input class="widefat" type="text" id="<?php echo $this->get_field_id( 'fiveemo_objectid' ); ?>" name="<?php echo $this->get_field_name( 'fiveemo_objectid' ); ?>" value="<?php echo esc_attr( $objectid ); ?>" />
+		<input class="widefat" type="text" placeholder="Object ID" id="<?php echo $this->get_field_id( 'fiveemo_objectid' ); ?>" name="<?php echo $this->get_field_name( 'fiveemo_objectid' ); ?>" value="<?php echo esc_attr( $objectid ); ?>" />
 	</p>
 	
 	<p>
 		<label for="<?php echo $this->get_field_id( 'fiveemo_mode'); ?>">Mode:</label>
-		<input class="widefat" type="text" id="<?php echo $this->get_field_id( 'fiveemo_mode' ); ?>" name="<?php echo $this->get_field_name( 'fiveemo_mode' ); ?>" value="<?php echo esc_attr( $mode ); ?>" />
+		<input class="widefat" type="text" placeholder="mode: 'popup' or 'iframe' or 'kiosk' " id="<?php echo $this->get_field_id( 'fiveemo_mode' ); ?>" name="<?php echo $this->get_field_name( 'fiveemo_mode' ); ?>" value="<?php echo esc_attr( $mode ); ?>" />
 	</p>
 	
 	<?php }
