@@ -3,7 +3,7 @@ Contributors: meyfey
 Tags: survey, questionnaire, opinion, poll, sentiment, instant feedback, immediate feedback, instant customer feedback, customer satisfaction, NPS, point of experience, anonymous feedback
 Requires at least: 5.0
 Tested up to: 5.7
-Requires PHP: 5.6
+Requires PHP: 7.0
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
