@@ -28,5 +28,7 @@ Modes:
     your website on a public place, in a shop or on a touch screen.
 
 == Changelog ==
+= 1.2 =
+* plugin icon and github action for deployment.
 = 1.0 =
 * initial version.
