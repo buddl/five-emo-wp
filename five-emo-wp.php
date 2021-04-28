@@ -3,7 +3,7 @@
 Plugin Name: 5 Emotions
 Plugin URI:  https://www.5emotions.de/
 Description: Embed 5 Emotions into your wordpress website
-Version:     1.3
+Version:     1.4
 Author:      5 Emotions
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
