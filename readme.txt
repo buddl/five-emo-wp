@@ -10,6 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Wordpress Plugin for 5 Emotions.
 This plugin lets you embed a widget for instant user feedback into your website.
+For more information visit: https://www.5emotions.de/
+
 
 == Description ==
  You can simply add 5 Emotions as a widget into wordpress.
